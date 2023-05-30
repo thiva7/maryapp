@@ -10,23 +10,13 @@
 <!--    <script src="your-script.js"></script>-->
 </head>
 <body>
-<?php
 
-if( $_GET['setting']){
-
-
-?>
 <!-- HTML content -->
 <label for="startDate">Start Date:</label>
 <input type="date" id="startDate" onchange="saveStartDate()">
 
 
-<?php
 
-}else{
-    echo '<input type="hidden" id="startDate" onchange="saveStartDate()">';
-}
-?>
 <label for="askDate">Ask Date:</label>
 <input type="date" id="askDate" value="" onchange="Run()" " >
 
